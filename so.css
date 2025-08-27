@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url(../font/Ubuntu-Regular.ttf);
+}
+body{
+    background-color: rgb(170, 255, 0);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family:'Ubuntu' ;
+    font-size: 18px;
+}
+h1{
+ color: rgb(20, 0, 245);
+}
+h1:hover{
+color: aliceblue;
+}
+input[type="text"] ,input[type="password"],
+input[type="number"],input[type="email"]{
+    height: 45px;
+    width: 400px;
+    border: 2px solid salmon;
+    font-size: 30px;
+    border-radius: 5px;
+}
+label{
+    font-size: 25px;
+}
+form{
+    box-shadow: rgba(11, 63, 184, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 30px 60px;
+    border-radius: 20px;
+    width: 410px;
+}
